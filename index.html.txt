@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>InVideo – AI Video Creation Tool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f0f0f0;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #007BFF;
+      margin-top: 30px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .feature {
+      flex: 1 1 280px;
+      background: #fafafa;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+    .feature img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      margin-top: 30px;
+      border-radius: 8px;
+    }
+    .cta-button {
+      display: inline-block;
+      background: #28a745;
+      color: white;
+      text-decoration: none;
+      padding: 14px 28px;
+      font-size: 18px;
+      border-radius: 6px;
+      margin: 40px auto 50px;
+      text-align: center;
+      display: block;
+      width: fit-content;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 14px;
+      background: #eee;
+      margin-top: 30px;
+      border-radius: 0 0 8px 8px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Create Stunning Videos with InVideo</h1>
+  <p>Use AI to generate professional videos in minutes.</p>
+</header>
+
+<main>
+  <h2>🎬 What is InVideo?</h2>
+  <p>InVideo is an AI-powered platform that turns your text, ideas, or scripts into stunning videos — no experience required!</p>
+
+  <h2>✨ Key Features</h2>
+  <div class="features">
+    <div class="feature">
+      <img src="https://img.freepik.com/free-photo/video-editing-software-interface-screen_23-2149494021.jpg" alt="Video Editing" />
+      <p>Transform text into engaging videos instantly.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.freepik.com/free-photo/artificial-intelligence-concept_23-2149231121.jpg" alt="AI Features" />
+      <p>AI automates editing: voiceovers, scenes, transitions.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.freepik.com/free-photo/youtube-video-thumbnail_53876-143054.jpg" alt="Social Media" />
+      <p>Perfect for YouTube, Instagram, TikTok, and marketing.</p>
+    </div>
+  </div>
+
+  <h2>📺 Demo Video</h2>
+  <iframe src="https://www.youtube.com/embed/FhId7pR8V9U" allowfullscreen></iframe>
+
+  <a href="https://invideo.io?ref=YOUR_AFFILIATE_ID" target="_blank" class="cta-button">Try InVideo for Free</a>
+</main>
+
+<footer>
+  &copy; 2025 AI Video Tools | Built by You
+</footer>
+
+</body>
+</html>
